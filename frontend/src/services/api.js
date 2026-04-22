@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // All requests go through the API Gateway on port 8082
-const GATEWAY_URL = 'http://localhost:8082';
+const GATEWAY_URL = 'http://3.146.178.184:8082';
 
 const api = axios.create({
   baseURL: GATEWAY_URL,
